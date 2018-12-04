@@ -7,7 +7,7 @@
 
 
 
-/* Header and Navigation HELLOOOOoOOoOOoOooooo */
+/* Header and Navigation */
 
 header img {
 	max-width: 100%;
@@ -59,18 +59,28 @@ font-size: 100%;
 }
 
 .row2 h2, .row3 h2{font-size: 100%;
+	margin: 1em 0 2em 0;
 }
+
+.row2 p, .row3 p{margin: 2em 0 2em 0;}
 
 .row1 .box-left{text-align: center;
 	padding: 3em;}
 
 .row2 img{max-width: 160px;}
 
+.row2 .events-photo img{margin: 1em 0 1em 0;
+max-width:80%;}
+
 .row2 .box-left{text-align: center;
-	padding: 0 3em 0 3em;}
+	padding: 0 3em 2em 3em;}
 
 .row2 .box-right{text-align: center;
-	padding: 0 3em 0 3em;}
+	padding: 0 3em 2em 3em;}
+
+
+
+
 
 .row3 img{max-width: 160px;}
 
@@ -93,6 +103,25 @@ font-size: 100%;}
 
 
 .row4 h2 {margin: 1em 2em 5em 2em}
+
+.row4-5 h2{color: #fdb52b;
+font-size: 200%;
+margin: 1em 0em .5em 0em;
+text-align: center;}
+
+.row4-5 h1{
+margin: 1em 4em 3em 4em;
+font-size: 80%;
+text-align: center;
+line-height: 2em;}
+
+.row4 li{text-align: center;
+font-size: 100%;
+margin: 1em 0em .5em 0em;}
+
+.row4 ul{margin:0 0 4em 0;}
+
+a {color:#008376;}
 
 
 
@@ -178,16 +207,24 @@ footer ul li ul li{
 			.row1 img {width:800px;
 			float: right;
 		margin: 2em 12em 2em 0em;}
-			.row1 .box-left{padding: 2em 0em 2em 12em;}
+			.row1 .box-left{padding: 0em 0em 2em 12em;
+			width: 40%;}
+			.row1 .box-right{
+			width: 60%;}
 			.row1 h1 {font-size: 300%;
 			margin: 2em 0 1em .5em;}
 			.row2 {display: flex;
 			justify-content: space-evenly;}
+			.row2 .box-left {width: 50%;}
+			.row2 .box-right {width: 50%;}
 			.row3 {display: flex;
 					justify-content: space-evenly;}
-			.row3 .box-left {margin: 0 0 0 2.7em;}
-			.row3 .box-right {margin: 0 0 0 2.7em;}
-			.row4 h2 {margin: 1em 15em 5em 15em}
+			.row3 .box-left {width: 50%;}
+			.row3 .box-right {width: 50%;}
+			.row4 h2 {margin: 1em 15em 5em 15em;}
+			.row4-5 h1{
+			margin: 1em 15em 3em 15em;
+		font-size: 100%;}
 
 
 
@@ -234,16 +271,23 @@ footer ul li ul li{
 			.row1 img {width:800px;
 			float: right;
 		margin: 2em 12em 2em 0em;}
-			.row1 .box-left{padding: 2em 0em 2em 12em;}
+			.row1 .box-left{padding: 0em 0em 2em 12em;
+			width: 60%;}
+			.row1 .box-right{width: 45%;}
 			.row1 h1 {font-size: 200%;
 			margin: 2em 0 1em .5em;}
 			.row2 {display: flex;
 			justify-content: space-evenly;}
+			.row2 .box-left {width: 50%;}
+			.row2 .box-right {width: 50%;}
 			.row3 {display: flex;
 					justify-content: space-evenly;}
-			.row3 .box-left {margin: 0 0 0 2.7em;}
-			.row3 .box-right {margin: 0 0 0 2.7em;}
+			.row3 .box-left {width: 50%;}
+			.row3 .box-right {width: 50%;}
 			.row4 h2 {margin: 1em 15em 5em 15em}
+			.row4-5 h1{
+			margin: 1em 10em 3em 10em;
+			font-size: 100%;}
 
 
 
@@ -291,16 +335,23 @@ footer ul li ul li{
 			.row1 img {width:700px;
 			float: right;
 		margin: 3em 6em 2em 0em;}
-			.row1 .box-left{padding: 2em 0em 2em 12em;}
+			.row1 .box-left{padding: 2em 0em 2em 12em;width: 60%;}
+			.row1 .box-right{width: 40%;}
 			.row1 h1 {font-size: 160%;
 			margin: 1.4em 0 1em .5em;}
 			.row2 {display: flex;
 			justify-content: space-evenly;}
+			.row2 .box-left {width: 50%;}
+			.row2 .box-right {width: 50%;}
 			.row3 {display: flex;
 					justify-content: space-evenly;}
-			.row3 .box-left {margin: 0 0 0 2.7em;}
-			.row3 .box-right {margin: 0 0 0 2.7em;}
+			.row3 .box-left {width: 50%;}
+			.row3 .box-right {width: 50%;}
 			.row4 h2 {margin: 1em 10em 5em 10em}
+			.row4-5 h1{
+			margin: 1em 7em 3em 7em;
+		font-size: 90%;}
+
 
 
 
@@ -348,11 +399,16 @@ margin: 3em 6em 2em 0em;}
 	margin: 1.4em 0 1em .5em;}
 			.row2 {display: flex;
 			justify-content: space-evenly;}
+			.row2 .box-left {width: 50%;}
+			.row2 .box-right {width: 50%;}
 			.row3 {display: flex;
 					justify-content: space-evenly;}
-			.row3 .box-left {margin: 0 0 0 2.7em;}
-			.row3 .box-right {margin: 0 0 0 2.7em;}
+			.row3 .box-left {width: 50%;}
+			.row3 .box-right {width: 50%;}
+			.row2 p,.row3 p {font-size: 80%;}
 			.row4 h2 {margin: 1em 5em 5em 5em}
+			.row4-5 h1{
+			margin: 1em 5em 3em 5em;}
 
 
 
@@ -418,13 +474,16 @@ footer li {display:block;}
 
 /* Mobile */
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 0px) and (max-width: 480px){
 	header img {
 	width: 320px;}
 
 header {text-align: center;}
 
 .row1 {text-align: center;}
+
+h1{
+font-size: 35%;}
 
 
 footer img {
